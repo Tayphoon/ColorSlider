@@ -28,7 +28,7 @@
 import UIKit
 
 /// The orientation in which the `ColorSlider` is drawn.
-@objc public enum Orientation {
+@objc public enum Orientation: Int {
 	/// The horizontal orientation.
 	case horizontal
 	
