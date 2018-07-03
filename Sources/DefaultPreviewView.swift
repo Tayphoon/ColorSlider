@@ -42,7 +42,7 @@ public class DefaultPreviewView: UIView {
 	public var animationDuration: TimeInterval = 0.15
 	
 	/// The side of the `ColorSlider` on which to show the preview view.
-	public enum Side {
+	@objc public enum Side: Int {
 		/// Show the preview to the left of the slider. Valid when the ColorSlider orientation is vertical.
 		case left
 		
