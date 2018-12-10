@@ -30,7 +30,7 @@ import UIKit
 public typealias PreviewView = UIView & ColorSliderPreviewing
 
 /// The display state of a preview view.
-public enum PreviewState {
+@objc public enum PreviewState: Int {
 	/// The color is not being changed and the preview view is centered at the last modified point.
 	case inactive
 	
