@@ -24,7 +24,7 @@ Create and add a ColorSlider to your view:
 
 ``` Swift
 let colorSlider = ColorSlider(orientation: .vertical, previewSide: .left)
-colorSlider.frame = CGRectMake(0, 0, 12, 150)
+colorSlider.frame = CGRect(x: 0, y: 0, width: 12, height: 150)
 view.addSubview(colorSlider)
 ```
 
@@ -89,21 +89,21 @@ ColorSlider is fully documented [here](http://gizmosachin.github.io/ColorSlider)
 
 ``` ruby
 platform :ios, '9.0'
-pod 'ColorSlider', '~> 4.1.2'
+pod 'ColorSlider', '~> 4.3'
 ```
 
 ### [Carthage](https://github.com/Carthage/Carthage)
 
 ``` ruby
-github "gizmosachin/ColorSlider" >= 4.1.2
+github "gizmosachin/ColorSlider" >= 4.3
 ```
 
 ## Version Compatibility
 
-| Swift Version | Framework Version |
-| ------------- | ----------------- |
-| 4.0           | master            |
-| 3.0           | 3.0.1             |
+| Swift Version | ColorSlider Version |
+| ------------- | ------------------- |
+| 4.2           | master              |
+| 4.0           | 4.2                 |
 
 ## Demo
 
