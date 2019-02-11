@@ -86,6 +86,7 @@ import UIKit
 /// See the `GradientView` and `HSBColor` for more details on how colors are calculated.
 ///
 
+@objcMembers
 public class ColorSlider: UIControl {
 	/// The selected color.
 	public var color: UIColor {
