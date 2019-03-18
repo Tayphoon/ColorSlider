@@ -275,8 +275,6 @@ extension ColorSlider {
 		update(touch: endTouch, touchInside: isTouchInside)
 		
 		previewView?.transition(to: .inactive)
-		
-		sendActions(for: isTouchInside ? .touchUpInside : .touchUpOutside)
 	}
 	
 	/// Cancels tracking a touch when the user cancels dragging.
