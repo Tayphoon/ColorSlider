@@ -245,7 +245,6 @@ extension ColorSlider {
 		centerPreview(at: touchLocation)
 		previewView?.transition(to: .active)
 		
-		sendActions(for: .touchDown)
 		sendActions(for: .valueChanged)
 		return true
 	}
