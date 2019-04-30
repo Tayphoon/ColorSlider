@@ -99,6 +99,9 @@ public class ColorSlider: UIControl {
 			previewView?.colorChanged(to: color)
 			previewView?.transition(to: .inactive)
 			
+            let sliderProgress = gradientView.calculateSliderProgress(for: internalColor)
+            centerPreview(at: CGPoint(x: sliderProgress * bounds.width, y: sliderProgress * bounds.height))
+
 			sendActions(for: .valueChanged)
 		}
 	}
